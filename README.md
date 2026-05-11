@@ -18,7 +18,7 @@ To run this project, you will need:
 1.  **Hardware**: [Arduino UNO Q](https://www.arduino.cc/product-uno-q) (or compatible board with an 8x8 LED Matrix).
 2.  **Camera**: A webcam or built-in camera for face detection.
 3.  **Browser**: A modern web browser with camera access permissions (Chrome, Edge, or Firefox recommended).
-4.  **Software**: Python 3.x and the Arduino IDE for flashing the firmware.
+4.  **Software**: Python 3.x and [Arduino App Lab](https://applab.arduino.cc/) for project execution and hardware bridging.
 
 ## 🏗️ System Architecture
 
