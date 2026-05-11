@@ -22,6 +22,9 @@ To run this project, you will need:
 
 ## 🏗️ System Architecture
 
+> [!NOTE]
+> **📡 Connectivity Note**: The Arduino UNO Q utilizes its integrated wireless capabilities to connect to the **Arduino App Lab** via WiFi. The Python backend communicates with the hardware through a WebSocket bridge, allowing for a cable-free interaction between the face detection interface and the physical LED matrix.
+
 ```mermaid
 graph LR
     A[Webcam Feed] --> B[AI Model]
