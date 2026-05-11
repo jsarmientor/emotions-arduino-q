@@ -74,12 +74,9 @@ These demonstrations showcase the real-time interaction between facial expressio
 
 *The system recognizes emotions in real-time and updates the Arduino LED matrix accordingly.*
 
-
-
 | **Face Tracking** | **Hardware Response** | **Inference Result** |
-
 | :---: | :---: | :---: |
-| <img src="images/IMG_4580.jpg" width="100"> | <img src="images/IMG_4581.jpg" width="100"> | <img src="images/IMG_5811.jpg" width="100"> |
+| <img src="images/IMG_4580.jpg" height="300"> | <img src="images/IMG_4581.jpg" height="300"> | <img src="images/IMG_5811.jpg" height="300"> |
 
 > [!TIP]
 > **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/IMG_5832.MOV)
