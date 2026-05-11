@@ -51,7 +51,7 @@ graph LR
 ### 🤖 Project in Action
 These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
 
-<img src="images/demo_emotions.gif" width="320">
+<img src="images/demo_emotions.gif" width="400">
 
 *The system recognizes emotions in real-time and updates the Arduino LED matrix accordingly.*
 
