@@ -68,23 +68,26 @@ graph LR
 ## 🎥 Visual Gallery
 
 ### 🤖 Project in Action
-These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
+The following demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix. 
 
-| **Face Tracking & Emotions** | **Hardware Response** | **Video Demos** |
-| :---: | :---: | :---: |
-| ![Exp 1](images/IMG_4580.HEIC) | ![Setup 1](images/IMG_4581.HEIC) | [Demo 1](images/IMG_4580.MP4) |
-| ![Exp 2](images/IMG_4582.HEIC) | ![Setup 2](images/IMG_4583.HEIC) | [Demo 2](images/IMG_4581.MP4) |
-| ![Exp 3](images/IMG_4584.HEIC) | ![Setup 3](images/IMG_4585.HEIC) | [Demo 3](images/IMG_4582.MP4) |
+> [!IMPORTANT]
+> GitHub does not natively display `.HEIC` images. For a better experience, we recommend converting them to `.jpg` or viewing the videos below.
+
+| **Demo Videos (MP4)** | **Original Photos (HEIC)** |
+| :---: | :---: |
+| [🎬 Watch Demo 1](images/IMG_4580.MP4) | [📷 View Setup 1](images/IMG_4580.HEIC) |
+| [🎬 Watch Demo 2](images/IMG_4581.MP4) | [📷 View Setup 2](images/IMG_4581.HEIC) |
+| [🎬 Watch Demo 3](images/IMG_4582.MP4) | [📷 View Setup 3](images/IMG_4582.HEIC) |
 
 > [!TIP]
-> Click on the **Video Demos** to see the system reacting to emotions in real-time!
+> Click on the **Demo Videos** to see the system reacting to emotions in real-time!
 
 ## 📸 Project Media
 
 You can find more project media (images and videos) in the [images/](images/) directory.
 
 ```text
-- Images: HEIC format (Original photos)
+- Images: HEIC format (Original photos - note: these may not display directly in some browsers)
 - Videos: MP4 format (Demonstrations)
 ```
 
