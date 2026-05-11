@@ -36,6 +36,8 @@ emotions-arduino-q/
 
 ## 🏗️ System Architecture
 
+![System Architecture](images/architecture.png)
+
 ```mermaid
 graph LR
     A[Webcam] --> B[AI Model]
