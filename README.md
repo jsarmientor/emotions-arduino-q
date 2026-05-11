@@ -7,7 +7,6 @@
 **Emotions-Arduino-Q** is a real-time face emotion recognition system running on the edge using **Arduino UNO Q**, **Python**, and **face-api.js**. This project bridges the gap between high-level browser-based AI and low-level hardware interaction.
 
 
-![Project Banner](images/linux-blink-banner.png)
 
 ## 📌 Overview
 
@@ -35,16 +34,33 @@ emotions-arduino-q/
 - **Privacy First**: All facial data remains local to the browser.
 - **Hardware Interaction**: Direct control of Arduino LED matrix based on sentiment.
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
+
+The project follows a modular architecture that integrates browser-based AI with hardware control:
 
 ```mermaid
-graph LR
-    A[Web Camera] --> B[Face Detector]
-    B --> C[Expression Analysis]
-    C --> D[Python Backend]
-    D --> E[Router Bridge]
-    E --> F[Arduino LED Matrix]
+graph TD
+    subgraph Browser_Environment ["Browser (Edge AI)"]
+        A[Webcam Feed] --> B[Tiny Face Detector]
+        B --> C[Face Expression Net]
+        C --> D{Detected Emotion}
+    end
+
+    subgraph Backend_Bridge ["Python Bridge"]
+        D -- "WebSocket (Bridge.call)" --> E[Main Backend]
+        E -- "Protocol Routing" --> F[Router Bridge]
+    end
+
+    subgraph Hardware_Output ["Arduino UNO Q"]
+        F -- "Serial Communication" --> G[Arduino Sketch]
+        G --> H[8x8 LED Matrix]
+        H -- "Display" --> I[Visual Expression Emoji]
+    end
+
+    style D fill:#f9f,stroke:#333,stroke-width:4px
+    style I fill:#00d1b2,stroke:#333,stroke-width:4px
 ```
+
 
 ## 🎥 Visual Gallery
 
