@@ -43,7 +43,7 @@ graph LR
     A[Webcam] --> B[AI Model]
     B --> C[Emotion]
     C --> D[Python Bridge]
-    D --> E[Arduino Q]
+    D --> E[Arduino UNO Q]
     E --> F[LED Matrix]
 ```
 
