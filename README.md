@@ -79,7 +79,7 @@ These demonstrations showcase the real-time interaction between facial expressio
 | **Face Tracking** | **Hardware Response** | **Inference Result** |
 
 | :---: | :---: | :---: |
-| <img src="images/IMG_4580.jpg" width="100"> | <img src="images/IMG_4581.jpg" width="100"> | <img src="images/IMG_5811.jpg" width="100"> |
+| <img src="images/IMG_4580.jpg" width="300"> | <img src="images/IMG_4581.jpg" width="300"> | <img src="images/IMG_5811.jpg" width="300"> |
 
 > [!TIP]
 > **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/IMG_5832.MOV)
