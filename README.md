@@ -12,6 +12,14 @@
 
 This application analyzes human facial expressions in real-time through a web browser and triggers physical responses on an Arduino board. It demonstrates how to implement Edge AI with a seamless communication bridge between a web frontend and a microcontroller.
 
+## 🛠️ Requirements & Materials
+
+To run this project, you will need:
+1.  **Hardware**: [Arduino UNO Q](https://www.arduino.cc/product-uno-q) (or compatible board with an 8x8 LED Matrix).
+2.  **Camera**: A webcam or built-in camera for face detection.
+3.  **Browser**: A modern web browser with camera access permissions (Chrome, Edge, or Firefox recommended).
+4.  **Software**: Python 3.x and the Arduino IDE for flashing the firmware.
+
 ## 🏗️ System Architecture
 
 ```mermaid
@@ -39,7 +47,7 @@ emotions-arduino-q/
 └── README.md           # This file
 ```
 
-## 🛠️ Key Features
+## 🌟 Key Features
 - **Real-time Detection**: Millisecond-level emotion inference in the browser.
 - **Edge Computing**: No heavy cloud processing required.
 - **Privacy First**: All facial data remains local to the browser.
