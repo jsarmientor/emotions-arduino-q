@@ -60,7 +60,8 @@ These demonstrations showcase the real-time interaction between facial expressio
 | <img src="images/IMG_4580.jpg" height="300"> | <img src="images/IMG_4581.jpg" height="300"> | <img src="images/IMG_5811.jpg" height="300"> |
 
 > [!TIP]
-> **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/IMG_5832.MOV)
+> **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/60A774FE-E03A-437D-AB5A-84C6252F988F%20Copy.mov)
+
 
 ## 📸 Project Media
 
