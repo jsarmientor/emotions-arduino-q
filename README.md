@@ -68,19 +68,17 @@ graph LR
 ## 🎥 Visual Gallery
 
 ### 🤖 Project in Action
-Comprehensive view of the **Emotions-Arduino-Q** system, showing face detection, hardware setup, and real-time results.
+These images demonstrate the real-time interaction between facial expressions and the Arduino LED matrix.
 
-| | | |
+| **Face Tracking** | **Hardware Response** | **Inference Result** |
 | :---: | :---: | :---: |
-| <img src="images/IMG_4580.jpg" width="250"> | <img src="images/IMG_4581.jpg" width="250"> | <img src="images/IMG_4582.jpg" width="250"> |
-| <img src="images/IMG_4583.jpg" width="250"> | <img src="images/IMG_4584.jpg" width="250"> | <img src="images/IMG_4585.jpg" width="250"> |
-| <img src="images/IMG_4586.jpg" width="250"> | <img src="images/IMG_4587.jpg" width="250"> | <img src="images/IMG_5811.jpg" width="250"> |
-| <img src="images/IMG_5812.jpg" width="250"> | <img src="images/IMG_5813.jpg" width="250"> | |
+| <img src="images/IMG_4580.jpg" width="300"> | <img src="images/IMG_4581.jpg" width="300"> | <img src="images/IMG_5811.jpg" width="300"> |
 
 > [!TIP]
 > **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/IMG_5832.MOV)
 
 ## 📸 Project Media
+
 
 
 You can find more project media (images) in the [images/](images/) directory.
