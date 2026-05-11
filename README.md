@@ -36,38 +36,21 @@ emotions-arduino-q/
 
 ## 🏗️ System Architecture
 
-The project follows a modular architecture that integrates browser-based AI with hardware control:
-
 ```mermaid
-graph TD
-    subgraph Browser_Environment ["Browser (Edge AI)"]
-        A[Webcam Feed] --> B[Tiny Face Detector]
-        B --> C[Face Expression Net]
-        C --> D{Detected Emotion}
-    end
-
-    subgraph Backend_Bridge ["Python Bridge"]
-        D -- "WebSocket (Bridge.call)" --> E[Main Backend]
-        E -- "Protocol Routing" --> F[Router Bridge]
-    end
-
-    subgraph Hardware_Output ["Arduino UNO Q"]
-        F -- "Serial Communication" --> G[Arduino Sketch]
-        G --> H[8x8 LED Matrix]
-        H -- "Display" --> I[Visual Expression Emoji]
-    end
-
-    style D fill:#f9f,stroke:#333,stroke-width:4px
-    style I fill:#00d1b2,stroke:#333,stroke-width:4px
+graph LR
+    A[Webcam] --> B[AI Model]
+    B --> C[Emotion]
+    C --> D[Python Bridge]
+    D --> E[Arduino Q]
+    E --> F[LED Matrix]
 ```
-
 
 ## 🎥 Visual Gallery
 
 ### 🤖 Project in Action
 These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
 
-<img src="images/demo_emotions.gif" width="400">
+<img src="images/demo_emotions.gif" width="280">
 
 *The system recognizes emotions in real-time and updates the Arduino LED matrix accordingly.*
 
