@@ -6,7 +6,7 @@
 
 **Emotions-Arduino-Q** is a real-time face emotion recognition system running on the edge using **Arduino UNO Q**, **Python**, and **face-api.js**. This project bridges the gap between high-level browser-based AI and low-level hardware interaction.
 
-![Project Banner](images/linux-blink-banner.png)
+![Project Banner](images/Gemini_Generated_Image_ql1ypeql1ypeql1y.png)
 
 ## 📌 Overview
 
