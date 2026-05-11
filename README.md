@@ -68,15 +68,17 @@ graph LR
 ## 🎥 Visual Gallery
 
 ### 🤖 Project in Action
-These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
+Comprehensive view of the **Emotions-Arduino-Q** system, showing face detection, hardware setup, and real-time results.
 
-| **Face Tracking** | **Hardware Response** | **Inference Demo** |
+| | | |
 | :---: | :---: | :---: |
-| <img src="images/IMG_4580.jpg" width="250"> | <img src="images/IMG_4581.jpg" width="250"> | <img src="images/IMG_5811.jpg" width="250"> |
-| <img src="images/IMG_4582.jpg" width="250"> | <img src="images/IMG_4583.jpg" width="250"> | <img src="images/IMG_5812.jpg" width="250"> |
+| <img src="images/IMG_4580.jpg" width="250"> | <img src="images/IMG_4581.jpg" width="250"> | <img src="images/IMG_4582.jpg" width="250"> |
+| <img src="images/IMG_4583.jpg" width="250"> | <img src="images/IMG_4584.jpg" width="250"> | <img src="images/IMG_4585.jpg" width="250"> |
+| <img src="images/IMG_4586.jpg" width="250"> | <img src="images/IMG_4587.jpg" width="250"> | <img src="images/IMG_5811.jpg" width="250"> |
+| <img src="images/IMG_5812.jpg" width="250"> | <img src="images/IMG_5813.jpg" width="250"> | |
 
 > [!TIP]
-> **View Videos**: [Demo 1](images/IMG_4580.MP4) | [Demo 2](images/IMG_4581.MP4) | [Demo 3](images/IMG_4582.MP4)
+> **Video Demonstrations**: [Watch 1](images/IMG_4580.MP4) | [Watch 2](images/IMG_4581.MP4) | [Watch 3](images/IMG_4582.MP4) | [Watch 4](images/IMG_5811.MP4)
 
 ## 📸 Project Media
 
