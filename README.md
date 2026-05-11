@@ -77,7 +77,11 @@ Comprehensive view of the **Emotions-Arduino-Q** system, showing face detection,
 | <img src="images/IMG_4586.jpg" width="250"> | <img src="images/IMG_4587.jpg" width="250"> | <img src="images/IMG_5811.jpg" width="250"> |
 | <img src="images/IMG_5812.jpg" width="250"> | <img src="images/IMG_5813.jpg" width="250"> | |
 
+> [!TIP]
+> **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/IMG_5832.MOV)
+
 ## 📸 Project Media
+
 
 You can find more project media (images) in the [images/](images/) directory.
 
