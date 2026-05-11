@@ -70,14 +70,13 @@ graph LR
 ### 🤖 Project in Action
 These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
 
-| **Face Tracking & Emotions** | **Hardware Response** | **Video Demos** |
+| **Face Tracking** | **Hardware Response** | **Inference Demo** |
 | :---: | :---: | :---: |
-| ![Exp 1](images/IMG_4580.jpg) | ![Setup 1](images/IMG_4581.jpg) | [Demo 1](images/IMG_4580.MP4) |
-| ![Exp 2](images/IMG_4582.jpg) | ![Setup 2](images/IMG_4583.jpg) | [Demo 2](images/IMG_4581.MP4) |
-| ![Exp 3](images/IMG_4584.jpg) | ![Setup 3](images/IMG_4585.jpg) | [Demo 3](images/IMG_4582.MP4) |
+| <img src="images/IMG_4580.jpg" width="250"> | <img src="images/IMG_4581.jpg" width="250"> | <img src="images/IMG_5811.jpg" width="250"> |
+| <img src="images/IMG_4582.jpg" width="250"> | <img src="images/IMG_4583.jpg" width="250"> | <img src="images/IMG_5812.jpg" width="250"> |
 
 > [!TIP]
-> Click on the **Video Demos** to see the system reacting to emotions in real-time!
+> **View Videos**: [Demo 1](images/IMG_4580.MP4) | [Demo 2](images/IMG_4581.MP4) | [Demo 3](images/IMG_4582.MP4)
 
 ## 📸 Project Media
 
