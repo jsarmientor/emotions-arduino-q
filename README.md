@@ -6,11 +6,22 @@
 
 **Emotions-Arduino-Q** is a real-time face emotion recognition system running on the edge using **Arduino UNO Q**, **Python**, and **face-api.js**. This project bridges the gap between high-level browser-based AI and low-level hardware interaction.
 
-
+![Project Banner](images/linux-blink-banner.png)
 
 ## 📌 Overview
 
 This application analyzes human facial expressions in real-time through a web browser and triggers physical responses on an Arduino board. It demonstrates how to implement Edge AI with a seamless communication bridge between a web frontend and a microcontroller.
+
+## 🏗️ System Architecture
+
+```mermaid
+graph LR
+    A[Webcam Feed] --> B[AI Model]
+    B --> C[Emotion Detected]
+    C --> D[Python Backend]
+    D --> E[Arduino UNO Q]
+    E --> F[LED Matrix Output]
+```
 
 ## 📂 Project Structure
 
@@ -34,25 +45,12 @@ emotions-arduino-q/
 - **Privacy First**: All facial data remains local to the browser.
 - **Hardware Interaction**: Direct control of Arduino LED matrix based on sentiment.
 
-## 🏗️ System Architecture
-
-![System Architecture](images/architecture.png)
-
-```mermaid
-graph LR
-    A[Webcam] --> B[AI Model]
-    B --> C[Emotion]
-    C --> D[Python Bridge]
-    D --> E[Arduino UNO Q]
-    E --> F[LED Matrix]
-```
-
 ## 🎥 Visual Gallery
 
 ### 🤖 Project in Action
 These demonstrations showcase the real-time interaction between facial expressions and the Arduino LED matrix.
 
-<img src="images/demo_emotions.gif" width="280">
+<img src="images/demo_emotions.gif" width="320">
 
 *The system recognizes emotions in real-time and updates the Arduino LED matrix accordingly.*
 
@@ -63,10 +61,7 @@ These demonstrations showcase the real-time interaction between facial expressio
 > [!TIP]
 > **Watch the Main Demo**: [🎬 Emotions-Arduino-Q in Action (Video)](images/60A774FE-E03A-437D-AB5A-84C6252F988F%20Copy.mov)
 
-
 ## 📸 Project Media
-
-
 
 You can find more project media (images) in the [images/](images/) directory.
 
@@ -74,9 +69,6 @@ You can find more project media (images) in the [images/](images/) directory.
 - Images: JPG format (Previews)
 ```
 
-
-
 ## 📝 License
-
 
 This project is licensed under the MIT License.
